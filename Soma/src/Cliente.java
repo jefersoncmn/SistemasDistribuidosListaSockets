@@ -19,7 +19,7 @@ public class Cliente {
 			numero = teclado.nextInt();
 			ps.writeInt(numero);
 			System.out.println(in.readUTF());
-		}while(numero!=666);
+		}while(numero!=401);
 		
 		numero = teclado.nextInt();
 		ps.writeInt(numero);
