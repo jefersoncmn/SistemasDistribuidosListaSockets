@@ -16,7 +16,7 @@ public class Cliente {
 		
 		String str = "";
 		do{
-			System.out.println("Escolha frase ou edita:");
+			System.out.println("Escolha 'frase' ou 'edita':");
 			str = teclado.nextLine();
 			
 			switch(str) {
