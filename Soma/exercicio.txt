@@ -1,0 +1,4 @@
+Implemente um servidor que aceite a ligação de um cliente de cada vez. O servidor receberá 
+de cada cliente, uma sequência de inteiros — pode optar tanto pelo formato binário como de 
+texto – que terminará quando detectar a situação de end of file na stream de leitura do socket. 
+No final da leitura dos valores inteiros, o servidor devolve ao cliente a soma correspondente

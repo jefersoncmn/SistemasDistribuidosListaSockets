@@ -1,0 +1,4 @@
+Implemente um jogo da forca remoto, com apenas 1 jogador. A definição da palavra a ser 
+adivinhada ficará no servidor. O jogador poderá ser desconectado do jogo se ele digitar a 
+frase "bye" ou for enforcado. E pra entrar no jogo novamente, ele terá que aguardar uma nova 
+conexão.

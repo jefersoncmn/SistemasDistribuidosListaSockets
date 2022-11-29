@@ -1,0 +1,12 @@
+Servidor de Fortunes: o objetivo deste exercício é imitar o funcionamento do conhecido 
+biscoito da sorte chinês (fortune cookie) em um ambiente distribuído. 
+
+O fortune, a cada invocação, imprime para o usuário uma frase escolhida aleatoriamente a partir de uma base 
+de dados de frases.
+- A ideia nesse exercício é construir um servidor de fortunes que suporte 2 operações:
+    i. GET-FORTUNE: retorna a frase correntemente armazenada no servidor
+    ii. SET-FORTUNE: modifica a frase armazenada no servidor. 
+- O protocolo de comunicação entre clientes e servidor é baseado em comandos 
+representados como texto. Assim ao receber a string "GET-FORTUNE" o servidor deve 
+responder com a frase corrente. Por sua vez, a operação SET-FORTUNE assume a forma: 
+"SET-FORTUNE\nNova frase\n

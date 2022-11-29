@@ -1,0 +1,2 @@
+Aplicação eco: O cliente lê do teclado e envia para o servidor. O servidor recebe e reenvia para 
+o cliente. O cliente então imprime o que recebeu e reinicia a leitura do teclado

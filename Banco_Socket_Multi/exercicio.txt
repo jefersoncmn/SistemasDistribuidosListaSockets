@@ -1,0 +1,2 @@
+Reimplemente o servidor de Banco do exercício anterior de modo a que este aceite a conexão
+simultânea de múltiplos clientes.
