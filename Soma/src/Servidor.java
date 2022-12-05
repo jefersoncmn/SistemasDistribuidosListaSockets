@@ -30,11 +30,7 @@ public class Servidor {
 			soma=0;
 			
 			do {
-<<<<<<< HEAD
-				out.writeUTF("Digite um Numero:");
-=======
 				out.writeUTF("Digite algum numero:");
->>>>>>> 5246a2d814384cc79929a9f183148f01a70d1135
 				numero=in.readInt();
 				soma=soma+numero;
 			}while(numero!=401);
