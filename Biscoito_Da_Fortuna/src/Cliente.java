@@ -16,7 +16,7 @@ public class Cliente {
 		
 		String str = "";
 		do{
-			System.out.println("Escolha frase ou edita:");
+			System.out.println("Escolha 'frase' ou 'editar':");
 			str = teclado.nextLine();
 			
 			switch(str) {
@@ -25,7 +25,7 @@ public class Cliente {
 				System.out.println(in.readUTF());
 				break;
 				
-			case "edita":				
+			case "editar":				
 				ps.writeUTF("SET-FORTUNE");
 				ps.writeUTF(teclado.nextLine());
 				System.out.println(in.readUTF());

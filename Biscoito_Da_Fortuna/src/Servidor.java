@@ -34,7 +34,7 @@ public class Servidor {
 
 		while (true) {
 
-			Socket s = serverSocket.accept();
+			Socket s = serverSocket.accept();//fica em espera aguardando que alguém conecte. Quando alguma conexão é aceita ele retorna um objeto Socket.
 			String ip = s.getInetAddress().getHostAddress();
 			System.out.println("Conectado com " + ip + " - " + new Date());
 

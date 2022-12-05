@@ -25,17 +25,17 @@ public class Servidor {
 		int numero=0;
 		while(x==1) {
 			
-			out.writeUTF("Bem vindo! Digite numeros e quando digitar 666 recebera a soma");
+			out.writeUTF("Bem vindo! Digite numeros e quando digitar 401 recebera a soma");
 			numero=0;
 			soma=0;
 			
 			do {
-				out.writeUTF("Numero");
+				out.writeUTF("Digite um Numero:");
 				numero=in.readInt();
 				soma=soma+numero;
-			}while(numero!=666);
+			}while(numero!=401);
 		
-			soma = soma -666;
+			soma = soma -401;
 			out.writeUTF("SOMA = " + soma +   " Digite qualquer numero para sair");
 			numero=in.readInt();
 			x=0;
